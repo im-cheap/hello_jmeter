@@ -1,1 +1,3 @@
-#yml file
+#test yml file
+language: java
+script: ant main
