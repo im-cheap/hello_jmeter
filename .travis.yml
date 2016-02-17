@@ -1,5 +1,6 @@
 #test yml file
 language: java
 
-mvn verify
+script:
+ mvn verify
 
