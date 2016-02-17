@@ -18,8 +18,14 @@
                         <id>jmeter-tests</id>
                         <phase>verify</phase>
                         <goals>
-                            <goal>jmeter</goal>
+                           <goal>jmeter</goal>
                         </goals>
+                        <configuration>
+                           <propertiesGlobal>
+                              <threads>10</threads>
+                              <testIterations>5</testIterations>
+                           </propertiesGlobal>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
