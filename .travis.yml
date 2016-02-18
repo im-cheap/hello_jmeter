@@ -1,0 +1,7 @@
+#test yml file
+language: ruby
+
+rvm:
+  - 2.1.7
+
+cache: bundler
