@@ -23,6 +23,8 @@
                         <configuration>
                            <propertiesUser>
                               <serverName>stats.nba.com</serverName>
+                              <userCount>6</userCount>
+                              <rampUp>2</rampUp>
                            </propertiesUser>
                         </configuration>
                     </execution>
