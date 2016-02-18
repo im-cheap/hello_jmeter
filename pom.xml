@@ -22,8 +22,8 @@
                         </goals>
                         <configuration>
                            <propertiesGlobal>
-                              <threads>10</threads>
-                              <testIterations>5</testIterations>
+                              <server>stats.nba.com</server>
+                              <!--<testIterations>5</testIterations>-->
                            </propertiesGlobal>
                         </configuration>
                     </execution>
