@@ -21,9 +21,9 @@
                            <goal>jmeter</goal>
                         </goals>
                         <configuration>
-                           <propertiesGlobal>
+                           <propertiesUser>
                               <serverName>stats.nba.com</serverName>
-                           </propertiesGlobal>
+                           </propertiesUser>
                         </configuration>
                     </execution>
                 </executions>
