@@ -22,8 +22,7 @@
                         </goals>
                         <configuration>
                            <propertiesGlobal>
-                              <server>stats.nba.com</server>
-                              <!--<testIterations>5</testIterations>-->
+                              <serverName>stats.nba.com</serverName>
                            </propertiesGlobal>
                         </configuration>
                     </execution>
