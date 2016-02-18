@@ -21,6 +21,7 @@
                            <goal>jmeter</goal>
                         </goals>
                         <configuration>
+                           <suppressJMeterOutput>false</suppressJMeterOutput>
                            <propertiesUser>
                               <serverName>stats.nba.com</serverName>
                               <userCount>6</userCount>
