@@ -4,3 +4,5 @@ language: java
 script:
  mvn verify
 
+env:
+  envIP: stats.nba.com
