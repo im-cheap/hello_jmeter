@@ -59,6 +59,7 @@
                            Required.
                            -->
                            <targetDirectory>${project.build.directory}/results</targetDirectory>
+                           <processAllFilesFound>true</processAllFilesFound>
                         </configuration>
                     </execution>
                 </executions>
