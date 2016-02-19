@@ -1,4 +1,4 @@
-
+require 'rubygems'
 require 'ruby-jmeter'
 
 test do
