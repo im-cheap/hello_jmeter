@@ -24,7 +24,7 @@
                            <suppressJMeterOutput>false</suppressJMeterOutput>
                            <appendResultsTimestamp>true</appendResultsTimestamp>
                            <propertiesUser>
-                              <serverName>stats.nba.com</serverName>
+                              <serverName>${env.envIP}</serverName><!--stats.nba.com${env.envIP}-->
                               <userCount>6</userCount>
                               <rampUp>2</rampUp>
                            </propertiesUser>
