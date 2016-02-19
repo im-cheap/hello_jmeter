@@ -25,7 +25,7 @@
                            <!--<appendResultsTimestamp>true</appendResultsTimestamp>-->
                            <propertiesUser>
                               <serverName>${env.envIP}</serverName><!--stats.nba.com${env.envIP}-->
-                              <userCount>6</userCount>
+                              <userCount>${env.threads}</userCount>
                               <rampUp>2</rampUp>
                            </propertiesUser>
                         </configuration>
