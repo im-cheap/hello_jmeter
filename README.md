@@ -1,9 +1,8 @@
-#test yml file update in readme file :o
-language: java
+#test yml file
+language: java 
 
 script:
- mvn verify
+mvn verify 
 
-env:
-  envIP: stats.nba.com
-  threads: 10
+another line 
+  hello world
