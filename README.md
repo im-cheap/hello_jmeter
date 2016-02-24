@@ -4,5 +4,7 @@ language: java
 script:
 mvn verify 
 
-another line 
-  hello world
+
+env: 
+
+envIP: stage.fakeSite.com
