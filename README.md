@@ -6,4 +6,4 @@ script:
 
 env:
   envIP: stats.nba.com
-  threads: 5
+  threads: 10
