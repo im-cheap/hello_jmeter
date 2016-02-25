@@ -1,10 +1,7 @@
-#test yml file
-language: java 
-
+---
+language: java
 script:
-mvn verify 
-
-
-env: 
-
-envIP: stage.fakeSite.com
+- mvn verify
+env:
+  envServer: test.fakeSite.com
+  envThreadCount: 99
