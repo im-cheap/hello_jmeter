@@ -21,7 +21,7 @@
                            <goal>jmeter</goal>
                         </goals>
                         <configuration>
-                           <!--<suppressJMeterOutput>false</suppressJMeterOutput>-->
+                           <suppressJMeterOutput>false</suppressJMeterOutput>
                            <!--<appendResultsTimestamp>true</appendResultsTimestamp>-->
                            <propertiesUser>
                               <serverName>${env.envIP}</serverName><!--stats.nba.com${env.envIP}-->
