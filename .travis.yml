@@ -3,5 +3,5 @@ language: java
 script:
 - mvn verify
 env:
-  envServer: stats.nba.com
-  envThreadCount: 99
+  envIP: stats.nba.com
+  threadCount: 99
