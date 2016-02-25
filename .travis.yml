@@ -4,4 +4,4 @@ script:
 - mvn verify
 env:
   envIP: stats.nba.com
-  threadCount: 99
+  threads: 15
