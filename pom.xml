@@ -21,6 +21,7 @@
                            <goal>jmeter</goal>
                         </goals>
                         <configuration>
+                           <overrideRootLogLevel>debug</overrideRootLogLevel>
                            <suppressJMeterOutput>false</suppressJMeterOutput>
                            <!--<appendResultsTimestamp>true</appendResultsTimestamp>-->
                            <propertiesUser>
@@ -51,7 +52,6 @@
                            Required.
                            -->
                            <source>${project.build.directory}/**/*.jtl</source>
-
                            <!--
                            directory where to store analysis result files.
 
@@ -59,6 +59,11 @@
                            Required.
                            -->
                            <targetDirectory>${project.build.directory}/results</targetDirectory>
+                           <sourceDirFailed>true</sourceDirFailed>
+                           <sampleNames>
+                              <sampleName>sample</sampleName>
+                              <sampleName>httpSample</sampleName>
+                           </sampleNames>
                            <processAllFilesFound>true</processAllFilesFound>
                         </configuration>
                     </execution>
