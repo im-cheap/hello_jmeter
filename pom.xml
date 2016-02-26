@@ -69,7 +69,7 @@ yyyy-MM-dd HH:mm:ss.SSS
                               Specify custom date format for resources not supporting ISO8601.
                               Default IOS8601 == HH:mm_yyyyMMdd 
                            -->
-                           <remoteResourcesFromUntilDateFormat>yyyy-MM-dd HH:mm:ss.SSS</remoteResourcesFromUntilDateFormat>
+                           <remoteResourcesFromUntilDateFormat>HH:mm:ss:sss_yyyyMMdd</remoteResourcesFromUntilDateFormat>
                         </configuration>
                     </execution>
                 </executions>
