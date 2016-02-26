@@ -54,7 +54,7 @@
                            <source>${project.build.directory}/**/*.jtl</source>
                            <!--
                            directory where to store analysis result files.
-
+yyyy-MM-dd HH:mm:ss.SSS
                            Default: ${project.build.directory}
                            Required.
                            -->
@@ -65,6 +65,11 @@
                               <sampleName>httpSample</sampleName>
                            </sampleNames>
                            <processAllFilesFound>true</processAllFilesFound>
+                           <!--
+                              Specify custom date format for resources not supporting ISO8601.
+                              Default IOS8601 == HH:mm_yyyyMMdd 
+                           -->
+                           <remoteResourcesFromUntilDateFormat>yyyy-MM-dd HH:mm:ss.SSS</remoteResourcesFromUntilDateFormat>
                         </configuration>
                     </execution>
                 </executions>
