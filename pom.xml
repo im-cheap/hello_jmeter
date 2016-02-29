@@ -23,8 +23,6 @@
                         <configuration>
                            <!--<overrideRootLogLevel>debug</overrideRootLogLevel>-->
                            <ignoreResultFailures>true</ignoreResultFailures>
-                           <scanResultsForSuccessfulRequests>true</scanResultsForSuccessfulRequests>
-                           <scanResultsForFailedRequests>true</scanResultsForFailedRequests>
                            <suppressJMeterOutput>false</suppressJMeterOutput>
                            <propertiesUser>
                               <serverName>${env.envIP}</serverName>
