@@ -72,6 +72,14 @@ yyyy-MM-dd HH:mm:ss.SSS
                               Default IOS8601 == HH:mm_yyyyMMdd
                               <remoteResourcesFromUntilDateFormat>HH:mm_yyyyMMdd</remoteResourcesFromUntilDateFormat>
                            -->
+                           <writers>
+          <com.lazerycode.jmeter.analyzer.writer.SummaryTextToStdOutWriter/>
+          <!--<com.lazerycode.jmeter.analyzer.writer.SummaryTextToFileWriter/>-->
+          <!--<com.lazerycode.jmeter.analyzer.writer.HtmlWriter/>-->
+          <!--<com.lazerycode.jmeter.analyzer.writer.DetailsToCsvWriter/>-->
+          <!--<com.lazerycode.jmeter.analyzer.writer.DetailsToHtmlWriter/>-->
+          <!--<com.lazerycode.jmeter.analyzer.writer.ChartWriter/>-->
+        </writers>
                         </configuration>
                     </execution>
                 </executions>
