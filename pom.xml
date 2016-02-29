@@ -23,7 +23,7 @@
                         <configuration>
                            <!--<ignoreResultFailures>false</ignoreResultFailures>-->
                            <generateDetails>true</generateDetails>
-                           <!--<suppressJMeterOutput>true</suppressJMeterOutput>-->
+                           <suppressJMeterOutput>FALSE</suppressJMeterOutput>
                            <propertiesUser>
                               <serverName>${env.envIP}</serverName>
                               <userCount>${env.threads}</userCount>
