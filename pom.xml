@@ -21,6 +21,9 @@
                            <goal>jmeter</goal>
                         </goals>
                         <configuration>
+                           <scanResultsForSuccessfulRequests>true</scanResultsForSuccessfulRequests>
+                           <scanResultsForFailedRequests>true</scanResultsForFailedRequests>
+                           <suppressJMeterOutput>false</suppressJMeterOutput>
                            <propertiesUser>
                               <serverName>${env.envIP}</serverName>
                               <userCount>${env.threads}</userCount>
