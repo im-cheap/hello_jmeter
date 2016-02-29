@@ -30,6 +30,7 @@
                            (which periodically prints stats to stdout). Therefore we have to make sure, 
                            that the jmeter output is not suppressed. -->
                            <suppressJMeterOutput>false</suppressJMeterOutput>
+                           <ignoreResultFailures>true</ignoreResultFailures>
                            <propertiesUser>
                               <serverName>${env.envIP}</serverName><!--stats.nba.com${env.envIP}-->
                               <userCount>${env.threads}</userCount>
