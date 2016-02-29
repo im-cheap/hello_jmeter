@@ -23,7 +23,7 @@
                         <configuration>
                            <ignoreResultFailures>false</ignoreResultFailures>
                            <propertiesUser>
-                              <serverName>${env.envIP}</serverName><!--stats.nba.com${env.envIP}-->
+                              <serverName>${env.envIP}</serverName>
                               <userCount>${env.threads}</userCount>
                               <rampUp>2</rampUp>
                            </propertiesUser>
@@ -65,7 +65,7 @@ yyyy-MM-dd HH:mm:ss.SSS
                            <processAllFilesFound>true</processAllFilesFound>
                            <!--
                               Specify custom date format for resources not supporting ISO8601.
-                              Default IOS8601 == HH:mm_yyyyMMdd 
+                              Default IOS8601 == HH:mm_yyyyMMdd
                               <remoteResourcesFromUntilDateFormat>HH:mm_yyyyMMdd</remoteResourcesFromUntilDateFormat>
                            -->
                         </configuration>
