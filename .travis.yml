@@ -1,7 +1,7 @@
 ---
 language: java
 script:
-- mvn -e -X verify
+- mvn -X verify
 env:
-  envIP: stage.fakeSite.com
-  threads: 4
+  envIP: stats.nba.com
+  threads: 2
