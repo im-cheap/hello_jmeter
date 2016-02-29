@@ -12,7 +12,7 @@
             <plugin>
                 <groupId>com.lazerycode.jmeter</groupId>
                 <artifactId>jmeter-maven-plugin</artifactId>
-                <version>1.10.1</version>
+                <version>1.9.0</version>
                 <executions>
                     <execution>
                         <id>jmeter-tests</id>
@@ -21,8 +21,6 @@
                            <goal>jmeter</goal>
                         </goals>
                         <configuration>
-                           <!--<ignoreResultFailures>false</ignoreResultFailures>-->
-                           <suppressJMeterOutput>false</suppressJMeterOutput>
                            <propertiesUser>
                               <serverName>${env.envIP}</serverName>
                               <userCount>${env.threads}</userCount>
