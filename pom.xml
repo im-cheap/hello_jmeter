@@ -22,6 +22,8 @@
                         </goals>
                         <configuration>
                            <ignoreResultFailures>false</ignoreResultFailures>
+                           <generateDetails>true</generateDetails>
+                           <suppressJMeterOutput>false</suppressJMeterOutput>
                            <propertiesUser>
                               <serverName>${env.envIP}</serverName>
                               <userCount>${env.threads}</userCount>
