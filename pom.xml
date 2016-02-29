@@ -21,8 +21,6 @@
                            <goal>jmeter</goal>
                         </goals>
                         <configuration>
-                           <overrideRootLogLevel>debug</overrideRootLogLevel>
-                           <suppressJMeterOutput>false</suppressJMeterOutput>
                            <!--<appendResultsTimestamp>true</appendResultsTimestamp>-->
                            <!-- To simplify debugging, it is advisable to adapt the loglevel. The 
                               jmeter logs are written to the file jmeter.log. -->
