@@ -1,7 +1,7 @@
 ---
 language: java
 script:
-- mvn -X verify
+- mvn verify
 env:
   envIP: stats.nba.com
   threads: 1
