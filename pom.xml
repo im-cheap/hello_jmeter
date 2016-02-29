@@ -21,7 +21,7 @@
                            <goal>jmeter</goal>
                         </goals>
                         <configuration>
-                           <overrideRootLogLevel>debug</overrideRootLogLevel>
+                           <!--<overrideRootLogLevel>debug</overrideRootLogLevel>-->
                            <ignoreResultFailures>true</ignoreResultFailures>
                            <scanResultsForSuccessfulRequests>true</scanResultsForSuccessfulRequests>
                            <scanResultsForFailedRequests>true</scanResultsForFailedRequests>
