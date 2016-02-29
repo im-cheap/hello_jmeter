@@ -4,4 +4,4 @@ script:
 - mvn -X verify
 env:
   envIP: stats.nba.com
-  threads: 2
+  threads: 1
